@@ -1,0 +1,95 @@
+/* Reset margin dan padding untuk elemen dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Membuat body memiliki padding dan font yang konsisten */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    padding: 20px;
+}
+
+/* Membuat container untuk menempatkan form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Membuat kontainer peta menutupi seluruh layar */
+}
+
+/* Register Box styling - memperlebar form */
+.register-box {
+    width: 100%;
+    max-width: 1200px; /* Membuat form lebih lebar */
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Card Header Styling */
+.card-header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+
+/* Styling for the form groups */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Styling for input fields */
+.form-control {
+    width: 100%;
+    padding: 12px; /* Menambah padding untuk input lebih besar */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+/* Styling for the select dropdown */
+select.form-control {
+    width: 100%;
+    padding: 12px; /* Menambah padding untuk select lebih besar */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
+}
+
+/* Add some space around the button */
+.card-footer {
+    text-align: center;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px; /* Menambah padding pada tombol */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem; /* Memperbesar ukuran font */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the form on mobile */
+@media (max-width: 768px) {
+    .register-box {
+        width: 90%;
+    }
+}

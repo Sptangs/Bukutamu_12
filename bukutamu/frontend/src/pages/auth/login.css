@@ -1,0 +1,187 @@
+/* =======================================================================
+Template Name: Youtubers
+Author: SmartEye Technologies
+Author URI: www.smarteyeapps.com
+Version: 1.0
+coder name: Prabin Raja
+Description: This Template is created for Youtubers
+======================================================================= */
+
+/* ===================================== Import Variables ================================== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
+@import 'font-awesome/css/font-awesome.min.css';
+
+
+/* ===================================== Basic CSS ==================================== */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+body{
+  font-family: "Open Sans";
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #444;
+}
+
+a:hover {
+  color: #444;
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+ol, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+a:hover,
+a:focus,
+input,
+textarea {
+  text-decoration: none;
+  outline: none;
+}
+
+.form-02-main {
+  background: url(../images/bg-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+._lk_de {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0px; /* Reduced padding */
+  position: relative;
+}
+
+.form-03-main {
+  width: 400px;  /* Reduced width */
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;  /* Reduced padding */
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  z-index: 9;
+}
+
+.logo {
+  display: block;
+  margin: 10px auto;
+  width: 80px;  /* Reduced size */
+  height: 80px; /* Reduced size */
+}
+
+.form-group {
+  padding: 8px 0px;  /* Reduced padding */
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+.form-control {
+  min-height: 40px;  /* Reduced height */
+  box-shadow: none;
+  padding: 6px 10px;  /* Reduced padding */
+  border-radius: 20px;
+  border: 1px solid #2b3990;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+._btn_04 {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0px;  /* Reduced padding */
+  background: #2b3990;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;  /* Reduced font size */
+  color: white;
+}
+
+._social_04 {
+  display: block;
+  width: 100%;
+
+  text-align: center;
+}
+
+._social_04 ol li {
+  display: inline-block;
+  width: 35px;  /* Reduced size */
+  height: 35px;  /* Reduced size */
+  text-align: center;
+  line-height: 35px;
+  transition: 0.2s;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #2b3990;
+  margin: 0 5px;
+}
+
+._social_04 ol li:hover {
+  color: #fff;
+}
+
+._social_04 ol li:nth-child(1):hover {
+  background: #3b5998;
+  border: 1px solid #3b5998;
+}
+
+._social_04 ol li:nth-child(2):hover {
+  background: #00aced;
+  border: 1px solid #00aced;
+}
+
+._social_04 ol li:nth-child(3):hover {
+  background: #c32f10;
+  border: 1px solid #c32f10;
+}
+
+._social_04 ol li:nth-child(4):hover {
+  background: #E1306C;
+  border: 1px solid #E1306C;
+}
+
+._social_04 ol li:nth-child(5):hover {
+  background: #0177b5;
+  border: 1px solid #0177b5;
+}
+
+._social_04 ol li i {
+  font-size: 13px;  /* Reduced font size */
+  color: #2b3990;
+}
+
+.nm_lk {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .form-03-main {
+    width: 80%;  /* Adjusted for smaller screen */
+  }
+}
