@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Swal from "sweetalert2";
+import '../css/sidebar.css';
 
 const Sidebar = () => {
 
@@ -21,16 +22,12 @@ const Sidebar = () => {
 
   return (
     <aside className="main-sidebar sidebar-dark-primary elevation-4">
-      {/* Brand Logo */}
-      <a href="index3.html" className="brand-link">
-        <img
-          src="../dist/img/AdminLTELogo.png"
-          alt="AdminLTE Logo"
-          className="brand-image img-circle elevation-3"
-          style={{ opacity: ".8" }}
-        />
-        <span className="brand-text font-weight-light">AdminLTE 3</span>
-      </a>
+      <div className="img bg-wrap text-center py-4" style={{backgroundImage: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLyUT2EH-eGpMvVTEfhN1CZs0LT1v1nzRrgw&s)'}}>
+                <div className="user-logo">
+                    <div className="img" style={{backgroundImage: 'url(https://tse1.mm.bing.net/th?id=OIP.LQWhgcuV9cI5oa22EPJhQwHaHa&pid=Api&P=0&h=180)'}} />
+                    <h3>BUKU TAMU</h3>
+                </div>
+                </div>
       {/* Sidebar */}
       <div className="sidebar">
         {/* Sidebar user panel (optional) */}
@@ -49,21 +46,7 @@ const Sidebar = () => {
           </div>
         </div>
         {/* SidebarSearch Form */}
-        <div className="form-inline">
-          <div className="input-group" data-widget="sidebar-search">
-            <input
-              className="form-control form-control-sidebar"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <div className="input-group-append">
-              <button className="btn btn-sidebar">
-                <i className="fas fa-search fa-fw" />
-              </button>
-            </div>
-          </div>
-        </div>
+        
         {/* Sidebar Menu */}
         <nav className="mt-2">
           <ul
@@ -112,4 +95,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Sidebar

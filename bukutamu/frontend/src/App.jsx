@@ -10,6 +10,7 @@ import BukuTamu from './pages/admin/BukuTamu';
 import AddBukuTamu from './pages/admin/AddBukuTamu';
 import Tamu from './pages/auth/tamu';
 import Chart from './pages/admin/LineChart';
+import Dashboard2 from './pages/admin/Dash2';
 
 
 function App() {
@@ -28,7 +29,9 @@ function App() {
           <Route index element={<Login />} />
           {/* <Route path='formulir' element={<AddBukuTamu />}/> */}
           <Route path='/tamu' element={<Tamu/>}></Route>
+          
           <Route path='/chart' element={<Chart/>}></Route>
+          <Route path='/dash' element={<Dashboard2/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
